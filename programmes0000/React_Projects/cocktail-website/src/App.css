@@ -1,0 +1,14 @@
+
+.container{
+  padding: 1rem;
+}
+.row{
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+.card{
+  width: 18rem;
+  padding: 0;
+}
+
