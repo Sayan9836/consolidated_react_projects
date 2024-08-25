@@ -1,0 +1,60 @@
+.navbar{
+    width: 100vw;
+    height: 10vh;
+
+}
+
+.navbar nav{
+    display: flex;
+    align-items: center;
+}
+.navbar nav div{
+    margin-left: 2rem;
+    font-size: xx-large;
+    font-weight: 500;
+}
+.navbar-items{
+    margin-left: 2rem;
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.navbar-items :link{
+    /* list-style: none; */
+    text-decoration: none;
+}
+
+.navbar-items :link li{
+    font-size: 1.5rem;
+}
+
+.menuList{
+    display:none;
+}
+@media screen and (max-width:40em) {
+    .menuList{
+        display: block;
+        margin-right: 2rem;
+    }
+    .menuList:hover{
+        cursor: pointer;
+    }
+    .navbar-items{
+        display: none;
+    }
+    .navbar nav div{
+        flex: 1;
+    }
+    .navbar nav{
+        margin-top: 1rem;
+        align-items: center;
+    }
+    .navbar{
+        height: 9vh;
+    }
+
+    .navbar-items.active{
+        display: block;
+    }
+}

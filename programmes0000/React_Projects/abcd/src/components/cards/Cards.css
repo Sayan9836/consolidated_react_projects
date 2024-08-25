@@ -1,0 +1,23 @@
+.card{
+    height: 70vh;
+    width: 25vw;  
+}
+
+@media screen and (max-width:45em) {
+    .card{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width:45em) {
+    .card{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width:70em) {
+    .card{
+        width: 30%;
+    }
+}
+

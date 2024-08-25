@@ -1,0 +1,21 @@
+.news-details{
+    background-color: rgba(0,0,0,0.05);
+    padding-top: 1rem;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: center;
+}
+      
+.news-details.active{
+    display:none;
+}
+
+@media screen and (max-width:40em) {
+    .news-details.active{
+        display:none;
+    }
+}
+
